@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Oxanium&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Oxanium:wght@500&family=Playfair+Display&family=Poppins:wght@400&display=swap');
+* {
+    box-sizing: border-box;
+  }
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.navbar-brand {
+    padding: 25px;
+    background-color: black;
+    color: white !important;
+}
+
+.navbar {
+    /* background-color: whitesmoke !important; */
+        overflow: hidden;
+  background-color: black;
+  color: white;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 1;
+}
+
+.navbar-nav {
+    margin-left: 10px;
+    background-color: black;
+}
+
+.navbar-nav li a {
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-right: 30px;
+    /* color: rgb(134, 132, 132) !important; */
+}
+
+.contact {
+    background-color: rgb(39, 35, 35);
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.work {
+    background-color: blue;
+}
+
+.fa {
+    font-family: 'Lora', serif;
+}
+
+#fanav {
+    background-color: white;
+}
+
+nav {
+    background-color: black !important;
+}
+
+
+.main-body {
+    margin-top: 100px;
+}
+
+
+.main {
+    max-height: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.main-left {
+    height: 100%;
+    width: 45%;
+    margin-left: 20px;
+    color: #D4D7D5;
+
+}
+
+.main-right {
+    background-color: green;
+    width: 45%;
+}
+
+.footer {
+    display: flex;
+    padding: 2rem 0;
+    border-top: 1px solid #eaeaea;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .title {
+    font-family: 'Lora', serif;
+    font-size: 2rem;
+    margin: 2rem 0;
+    color: #D4D7D5;
+    margin-left: 20px;
+  }
+  
+  .description {
+    line-height: 1;
+    margin: 2rem 0;
+    font-size: 1.2rem;
+    margin-left: 20px;
+  }
+  
+  .mint {
+    border-radius: 4px;
+    background-color: darkblue;
+    border: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+    margin-bottom: 2%;
+    margin-left: 20px;
+    font-family: "Roboto";
+  }
+  
+  .heading-connect {
+    border: none;
+    max-width: 155px;
+    cursor: pointer;
+    margin-bottom: 2%;
+    margin-left: 20px;
+    font-family: "Roboto";
+    list-style-type: none;
+    font-weight: bold;
+  }
+
+.category-card {
+    background-color: rgb(29, 28, 28);
+    max-width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    font-family: sans-serif;
+}
+
+.card-bd {
+    color: white;
+    font-family: "Poppins";
+    font: bold;
+}
+
+.ntf-mint {
+    border-radius: 4px;
+    background-color: darkblue;
+    border: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+    margin-bottom: 2%;
+    font-family: "Roboto";
+}
+
+.nft-minted {
+  background-color: gray;
+  color: white;
+}
+
+.mint-section {
+  padding-top: 80px;
+}
+
+.category-card img {
+    width: 100%;
+}
+
+.sub-head-title {
+    font-family: 'Lora', serif;
+    font-size: 2rem;
+    margin: 2rem 0;
+    color: #D4D7D5;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 33.3%;
+    max-width: 33.3%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
+
+/* Footer */
+footer, #footer {
+  background-color: #0f0c0c;
+}
+
+#footer .fab, #footer > div > p {
+  color: #D4D7D5;
+}
+
+#footer .fab {
+  font-size: 20px;
+}
+
+
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 100%;
+    }
+    .category-card {
+      background-color: rgb(29, 28, 28);
+      max-width: 500px;
+      border-radius: 10px;
+      padding: 10px;
+      margin: 10px;
+      font-family: sans-serif;
+  }
+  
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  
+  @media (min-width: 900px) {
+
+    .column {
+      flex: 25%;
+      max-width: 25%;
+      padding: 0 4px;
+    }
+  }
+
+
+@media (max-width: 1000px) {
+    .main {
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .main-left {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .main-right {
+        width: 100%;
+        margin: 0px;
+    }
+  }
+  
