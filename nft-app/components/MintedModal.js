@@ -26,7 +26,7 @@ export default function MintedModal(props) {
                         <div className="modal-footer">
                         <button type="button" className="btn btn-secondary" data-bs-dismiss="modal" onClick={() => props.close()}>Close</button>
                         <button type="button" className="btn btn-primary">
-                            <a href={openseaUrl} target="_blank" className="text-decoration-none text-light">View on opensea</a> 
+                            <a href={openseaUrl} target="_blank" rel="noreferrer" className="text-decoration-none text-light">View on opensea</a> 
                             </button>
                         </div>
                     </div>
