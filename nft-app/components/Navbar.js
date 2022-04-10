@@ -52,7 +52,6 @@ export default function Navbar() {
       } catch (error) {
         console.error(error);
       }
-        // alert(connected);
     }
 
     const refreshState = () => {
@@ -123,9 +122,7 @@ export default function Navbar() {
             </Link>
         </li>
         <li className="nav-item">
-          <Link href="/about">
             <a className="nav-link" style={{"color":"rgb(134, 132, 132)"}}>About</a>
-          </Link>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#mint-section" style={{"padding-right":"20px","color":"rgb(134, 132, 132)"}}>Mint</a>

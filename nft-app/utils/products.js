@@ -24,69 +24,69 @@ const products1 = [
 const products2 = [
     {
         "id": 6,
-        "image": "https://www.w3schools.com/w3images/paris.jpg",
+        "image": "https://raw.githubusercontent.com/faith-ware/faith-arts-nft/main/images/6.jpg",
       },
       {
         "id": 7,
-        "image": "https://www.w3schools.com/w3images/nature.jpg",
+        "image": "https://raw.githubusercontent.com/faith-ware/faith-arts-nft/main/images/7.jpg",
       },
       {
         "id": 8,
-        "image": "https://www.w3schools.com/w3images/mist.jpg",
+        "image": "https://raw.githubusercontent.com/faith-ware/faith-arts-nft/main/images/8.jpg",
       },
       {
         "id": 9,
-        "image": "https://www.w3schools.com/w3images/mist.jpg",
+        "image": "https://raw.githubusercontent.com/faith-ware/faith-arts-nft/main/images/9.jpg",
       },
       {
         "id": 10,
-        "image": "https://www.w3schools.com/w3images/mist.jpg",
+        "image": "https://raw.githubusercontent.com/faith-ware/faith-arts-nft/main/images/10.jpg",
       }
 ]
 
 const products3 = [
     {
         "id": 11,
-        "image": "https://www.w3schools.com/w3images/paris.jpg",
+        "image": "https://raw.githubusercontent.com/faith-ware/faith-arts-nft/main/images/11.jpg",
       },
       {
         "id": 12,
-        "image": "https://www.w3schools.com/w3images/nature.jpg",
+        "image": "https://raw.githubusercontent.com/faith-ware/faith-arts-nft/main/images/12.jpg",
       },
       {
         "id": 13,
-        "image": "https://www.w3schools.com/w3images/mist.jpg",
+        "image": "https://raw.githubusercontent.com/faith-ware/faith-arts-nft/main/images/13.jpg",
       },
       {
         "id": 14,
-        "image": "https://www.w3schools.com/w3images/mist.jpg",
+        "image": "https://raw.githubusercontent.com/faith-ware/faith-arts-nft/main/images/14.jpg",
       },
       {
         "id": 15,
-        "image": "https://www.w3schools.com/w3images/mist.jpg",
+        "image": "https://raw.githubusercontent.com/faith-ware/faith-arts-nft/main/images/15.jpg",
       }
 ]
 
 const products4 = [
     {
         "id": 16,
-        "image": "https://www.w3schools.com/w3images/paris.jpg",
+        "image": "https://raw.githubusercontent.com/faith-ware/faith-arts-nft/main/images/16.jpg",
       },
       {
         "id": 17,
-        "image": "https://www.w3schools.com/w3images/nature.jpg",
+        "image": "https://raw.githubusercontent.com/faith-ware/faith-arts-nft/main/images/17.jpg",
       },
       {
         "id": 18,
-        "image": "https://www.w3schools.com/w3images/mist.jpg",
+        "image": "https://raw.githubusercontent.com/faith-ware/faith-arts-nft/main/images/18.jpg",
       },
       {
         "id": 19,
-        "image": "https://www.w3schools.com/w3images/mist.jpg",
+        "image": "https://raw.githubusercontent.com/faith-ware/faith-arts-nft/main/images/19.jpg",
       },
       {
         "id": 20,
-        "image": "https://www.w3schools.com/w3images/mist.jpg",
+        "image": "https://raw.githubusercontent.com/faith-ware/faith-arts-nft/main/images/20.jpg",
       }
 ]
 

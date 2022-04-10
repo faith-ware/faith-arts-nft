@@ -63,7 +63,7 @@ function ProductItem(props) {
 
     return (
             <div className="category-card">
-                <img src={props.image} alt="" className="product-img" />
+                <img src={props.image} alt="Faith Artworks" className="product-img" />
                 <div className="d-flex justify-content-between mb-0 p-0" style={{"height":"25px", "color" : "gray"}}>
                     <small className="mt-1">Description</small>
                     <small className="mt-1">Price</small>
