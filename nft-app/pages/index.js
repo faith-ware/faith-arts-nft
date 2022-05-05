@@ -42,7 +42,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Faith Arts</title>
-        <meta name="description" content="Whitelist-Dapp" />
+        <meta name="description" content="Faith-arts-nft collection" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
